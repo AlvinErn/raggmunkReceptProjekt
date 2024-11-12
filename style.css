@@ -1,0 +1,16 @@
+body{
+    background-image: url(img/TräBakgrund.png);
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr, 3fr;
+    grid-template-rows: 20vh, 80vh;
+    background-image: url(img/TräBakgrund.png);
+}
+.ingredienser{
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
