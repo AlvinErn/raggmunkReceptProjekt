@@ -17,14 +17,14 @@ h1{
     background-color: #FFA37A;
     padding-left: 7.5%;
     padding-right: 7.5%;
-    border-radius: 45%;
+    border-radius: 45px;
     border: black solid 2.5px;
 }
 #raggmunk{
-    grid-column: 4/5;
+    grid-column: 5/6;
     grid-row: 1;
     img{
-        border-radius: 25%;
+        border-radius: 25px;
         border: black solid 2.5px;
     }
 }
@@ -37,20 +37,20 @@ h1{
 }
 #RecLista{
     border: black solid 2.5px;
-    border-radius: 10%;
+    border-radius: 45px;
     background-color: #FFA37A;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 90%;
-    grid-column: 2/3;
+    grid-column: 1/4;
     grid-row: 3;
 }
 #Ingredienser{
     display: flex;
     align-items: center;
     justify-content: center;
-    grid-column: 4/5;
+    grid-column: 5/6;
     grid-row: 2;
 }
 #IngLista{
@@ -58,31 +58,37 @@ h1{
     align-items: center;
     justify-content: center;
     border: black solid 2.5px;
-    border-radius: 10%;
+    border-radius: 45px;
     background-color: #FFA37A;
     margin-left: 10%;
     margin-right: 10%;
-    grid-column: 4/5;
+    grid-column: 5/6;
     grid-row: 3;
 }
 h2{
     background-color: #FFA37A;
     padding-left: 15%;
     padding-right: 15%;
-    border-radius: 45%;
+    border-radius: 45px;
     border: black solid 2.5px;
 }
-
-
-
-
+#ica{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1/2;
+    grid-row: 4;
+    img{
+        border-radius: 25px;
+    }
+}
 #Potatis{
     display: flex;
     justify-content: center;
-    grid-column: 2/3;
+    grid-column: 3/4;
     grid-row: 4;
     img{
-        border-radius: 25%;
+        border-radius: 25px;
         border: black solid 2.5px;
     }
 }
